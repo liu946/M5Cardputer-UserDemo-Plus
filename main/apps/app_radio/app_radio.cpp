@@ -130,8 +130,8 @@ void AppRadio::_update_cursor()
 }
 
 
-static char _wifi_ssid[50] = "IOTNetwork";
-static char _wifi_password[50] = "fwintheshell";
+static char _wifi_ssid[50] = "1409";
+static char _wifi_password[50] = "jinjia888888";
 
 void AppRadio::_update_state()
 {

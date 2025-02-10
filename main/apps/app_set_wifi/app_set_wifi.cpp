@@ -116,8 +116,8 @@ void AppSetWiFi::_update_cursor() {
 }
 
 
-static char _wifi_ssid[50] = "IOTNetwork";
-static char _wifi_password[50] = "fwintheshell";
+static char _wifi_ssid[50] = "1409";
+static char _wifi_password[50] = "jinjia888888";
 
 void AppSetWiFi::_update_state() {
     if (_data.current_state == state_init) {
