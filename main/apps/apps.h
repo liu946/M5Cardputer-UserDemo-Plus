@@ -21,3 +21,4 @@
 #include "app_scales/app_scales.h"
 #include "app_env/app_env.h"
 #include "app_radio/app_radio.h"
+#include "app_texteditor/app_texteditor.h"
