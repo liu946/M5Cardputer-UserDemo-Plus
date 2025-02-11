@@ -13,8 +13,8 @@
  * ESP8266Audio: https://github.com/earlephilhower/ESP8266Audio/
  */
 
-#define WIFI_SSID "IOTNetwork"
-#define WIFI_PASS "fwintheshell"
+#define WIFI_SSID "1409"
+#define WIFI_PASS "jinjia888888"
 
 #include "app_radio.h"
 #include "spdlog/spdlog.h"
@@ -61,6 +61,63 @@ static constexpr const char* station_list[][2] = {
     {"Classic FM"        , "http://media-ice.musicradio.com:80/ClassicFMMP3"},
     //{"Morcegao FM"       , "http://tunein.com/radio/Morcego-FM-s112812/"},
     //{"Morcegao FM"       , "http://radio.morcegaofm.com.br/morcegao32/"},
+    {"AsiaFM亚洲音乐台", "http://lhttp.qingting.fm/live/4581/64k.mp3"},
+    {"亚洲音乐成都FM96.5", "http://lhttp.qtfm.cn/live/4581/64k.mp3"},
+    {"湖南新闻", "http://lhttp.qtfm.cn/live/4978/64k.mp3"},
+    {"湖南交通", "http://lhttp.qingting.fm/live/4879/64k.mp3"},
+    {"湖南音乐893芒果音乐台", "http://lhttp.qtfm.cn/live/4979/64k.mp3"},
+    {"湖南news938潇湘之声", "http://lhttp.qtfm.cn/live/4982/64k.mp3"},
+    {"湖南经广FM901", "http://lhttp.qtfm.cn/live/4983/64k.mp3"},
+    {"湖南PoPoPod播客电台", "http://lhttp.qtfm.cn/live/4981/64k.mp3"},
+    {"湖南金鹰955电台", "http://lhttp.qtfm.cn/live/4937/64k.mp3"},
+    {"长沙城市之声FM101.7", "http://lhttp.qtfm.cn/live/4237/64k.mp3"},
+    {"长沙新闻广播FM105.0", "http://lhttp.qtfm.cn/live/4877/64k.mp3"},
+    {"长沙交通广播FM106.1", "http://lhttp.qtfm.cn/live/3967/64k.mp3"},
+    {"岳阳新闻综合广播FM104.1", "http://lhttp.qingting.fm/live/20989/64k.mp3"},
+    {"益阳交通广播FM88.1", "http://lhttp.qtfm.cn/live/15318153/64k.mp3"},
+    {"益阳之声FM997", "http://lhttp.qtfm.cn/live/20314/64k.mp3"},
+    {"桃江广播电台", "http://lhttp.qtfm.cn/live/20500086/64k.mp3"},
+    {"湘潭交通广播FM104.2", "http://lhttp.qtfm.cn/live/21269/64k.mp3"},
+    {"辽宁乡村广播 2", "http://lhttp.qtfm.cn/live/20018/64k.mp3"},
+    {"沈阳新闻", "http://lhttp.qtfm.cn/live/20024/64k.mp3"},
+    {"沈阳交通", "http://lhttp.qtfm.cn/live/1101/64k.mp3"},
+    {"北京新闻广播", "http://lhttp.qtfm.cn/live/339/64k.mp3"},
+    {"北京文艺广播", "http://lhttp.qtfm.cn/live/333/64k.mp3"},
+    {"河北综合广播", "http://lhttp.qingting.fm/live/20500111/64k.mp3"},
+    {"山西综合广播", "http://lhttp.qingting.fm/live/20491/64k.mp3"},
+    {"吉林新闻综合广播", "http://lhttp.qtfm.cn/live/337/64k.mp3"},
+    {"江苏新闻广播", "http://lhttp.qtfm.cn/live/4944/64k.mp3"},
+    {"安徽综合广播", "http://lhttp.qingting.fm/live/4919/64k.mp3"},
+    {"海南新闻广播", "http://lhttp.qtfm.cn/live/1861/64k.mp3"},
+    {"四川综合广播FM98.1", "http://lhttp.qtfm.cn/live/20207767/64k.mp3"},
+    {"云南新闻广播", "http://lhttp.qtfm.cn/live/1926/64k.mp3"},
+    {"陕西新闻广播", "http://lhttp.qtfm.cn/live/1600/64k.mp3"},
+    {"新疆汉语综合广播", "http://lhttp.qingting.fm/live/1902/64k.mp3"},
+    {"FM93浙江交通之声", "http://lhttp.qingting.fm/live/4522/64k.mp3"},
+    {"深圳先锋898", "http://lhttp.qingting.fm/live/1270/64k.mp3"},
+    {"广东广播电视台股市广播", "http://lhttp.qingting.fm/live/4847/64k.mp3"},
+    {"顺德音乐之声", "http://lhttp.qingting.fm/live/20500150/64k.mp3"},
+    {"河北音乐广播", "http://lhttp.qingting.fm/live/1649/64k.mp3"},
+    {"上海新闻广播", "http://lhttp.qingting.fm/live/270/64k.mp3"},
+    {"济南新闻广播", "http://lhttp.qingting.fm/live/1667/64k.mp3"},
+    {"江苏经典流行音乐", "http://lhttp.qingting.fm/live/4938/64k.mp3"},
+    {"羊城交通台", "http://lhttp.qingting.fm/live/1262/64k.mp3"},
+    {"国际新闻", "http://lhttp.qingting.fm/live/20500172/64k.mp3"},
+    {"杭州交通91.8电台", "http://lhttp.qingting.fm/live/1133/64k.mp3"},
+    {"浙江之声", "http://lhttp.qingting.fm/live/4518/64k.mp3"},
+    {"938重庆私家车广播", "http://lhttp.qingting.fm/live/1502/64k.mp3"},
+    {"萍乡电台综合广播FM106.8", "http://lhttp.qingting.fm/live/5022455/64k.mp3"},
+    {"萍乡交通文艺广播", "http://lhttp.qingting.fm/live/5022409/64k.mp3"},
+    {"江西音乐广播", "http://lhttp.qingting.fm/live/1802/64k.mp3"},
+    {"江西新闻广播", "http://lhttp.qingting.fm/live/1809/64k.mp3"},
+    {"温州音乐之声", "http://lhttp.qingting.fm/live/1149/64k.mp3"},
+    {"温州交通广播", "http://lhttp.qingting.fm/live/1156/64k.mp3"},
+    {"南京音乐广播", "http://lhttp.qingting.fm/live/4963/64k.mp3"},
+    {"成都年代音乐怀旧好声音", "  http://lhttp.qingting.fm/live/20211686/64k.mp3"},
+    {"湖南交通频道", "http://lhttp.qingting.fm/live/4870/64k.mp3"},
+    {"福建新闻广播", "http://lhttp.qingting.fm/live/1731/64k.mp3"},
+    {"海峡之声广播电台", "http://lhttp.qingting.fm/live/1744/64k.mp3"},
+    {"哈尔滨音乐广播", "http://lhttp.qingting.fm/live/839/64k.mp3"},
 };
 static constexpr const size_t stations = sizeof(station_list) / sizeof(station_list[0]);
 
@@ -93,6 +150,8 @@ const size_t meta_text_num = sizeof(meta_text) / sizeof(meta_text[0]);
 uint8_t meta_mod_bits = 0;
 volatile size_t playindex = ~0u;
 TaskHandle_t decode_task_handel;
+auto last_key_press_time = 0;
+auto last_key_press_record = 0;
 
 // #define preallocateBuffer AppRadio::_current_data->preallocateBuffer
 // #define preallocateCodec AppRadio::_current_data->preallocateCodec
@@ -324,7 +383,7 @@ void AppRadio::gfxLoop(LGFX_Device* gfx) {
                     if (level < lv) { level = lv; }
                 }
 
-                int32_t x = (level * gfx->width()) / INT16_MAX;
+                int32_t x = (level * (int)(gfx->width() * 0.9)) / INT16_MAX;
                 int32_t px = _fft_prev_x[i];
                 if (px != x) {
                     gfx->fillRect(x, i * 3, px - x, 2, px < x ? 0xFF9900u : 0x330000u);
@@ -598,9 +657,15 @@ void AppRadio::_loop(void) {
                 && _data.hal->keyboard()->getKeyValue(pressing_key).value_num_first <= KEY_0)
             {
                 delay(200);
-                int i = _data.hal->keyboard()->getKeyValue(pressing_key).value_num_first - KEY_1;
-                if (i >= stations) i = stations - 1;
-                station_index = i;
+                int i = (_data.hal->keyboard()->getKeyValue(pressing_key).value_num_first - KEY_1 + 1) % 10;
+                if (millis() - last_key_press_time < 1500) {
+                    i += last_key_press_record * 10;
+                }
+                last_key_press_record = i;
+                last_key_press_time = millis();
+                if (i > stations) i = stations;
+                if (i < 1) i = 1;
+                station_index = i - 1;
                 play(station_index);
                 _data.hal->Speaker()->tone(900, 100);
             }
